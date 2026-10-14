@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#bg4)" rx="16"/>
+  <!-- ERP System mockup -->
+  <rect x="40" y="35" width="520" height="310" rx="10" fill="#ffffff" stroke="#bae6fd" stroke-width="2"/>
+  <rect x="40" y="35" width="520" height="38" rx="10" fill="url(#headerGrad4)"/>
+  <circle cx="65" cy="54" r="5" fill="#fecaca"/>
+  <circle cx="82" cy="54" r="5" fill="#fef08a"/>
+  <circle cx="99" cy="54" r="5" fill="#bbf7d0"/>
+  <text x="120" y="59" fill="#ffffff" font-size="13" font-family="sans-serif" font-weight="600">💼 ERP Asset & Inventory Management</text>
+
+  <!-- KPI summary blocks -->
+  <rect x="65" y="90" width="145" height="60" rx="6" fill="#f0f9ff" stroke="#bae6fd"/>
+  <text x="78" y="112" fill="#0369a1" font-size="11">총 관리 비품 수</text>
+  <text x="78" y="136" fill="#0c4a6e" font-size="18" font-weight="bold">1,420건</text>
+
+  <rect x="225" y="90" width="145" height="60" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="238" y="112" fill="#15803d" font-size="11">정합도 일치율</text>
+  <text x="238" y="136" fill="#14532d" font-size="18" font-weight="bold">99.8%</text>
+
+  <rect x="385" y="90" width="145" height="60" rx="6" fill="#fdf4ff" stroke="#f5d0fe"/>
+  <text x="398" y="112" fill="#a21caf" font-size="11">월간 재고 실사</text>
+  <text x="398" y="136" fill="#701a75" font-size="18" font-weight="bold">0건 오차</text>
+
+  <!-- Data table -->
+  <rect x="65" y="165" width="465" height="135" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="65" y="165" width="465" height="26" fill="#e2e8f0" rx="6 6 0 0"/>
+  <text x="80" y="182" fill="#475569" font-size="10" font-weight="bold">자산 코드</text>
+  <text x="180" y="182" fill="#475569" font-size="10" font-weight="bold">품목명</text>
+  <text x="300" y="182" fill="#475569" font-size="10" font-weight="bold">배치 부서</text>
+  <text x="430" y="182" fill="#475569" font-size="10" font-weight="bold">상태</text>
+
+  <!-- Row 1 -->
+  <text x="80" y="210" fill="#334155" font-size="10">AST-2026-001</text>
+  <text x="180" y="210" fill="#334155" font-size="10">고성능 사무용 PC</text>
+  <text x="300" y="210" fill="#334155" font-size="10">경영기획팀</text>
+  <rect x="425" y="198" width="50" height="16" rx="4" fill="#dcfce7"/>
+  <text x="450" y="210" fill="#15803d" font-size="9" text-anchor="middle">정상사용</text>
+
+  <!-- Row 2 -->
+  <text x="80" y="238" fill="#334155" font-size="10">AST-2026-042</text>
+  <text x="180" y="238" fill="#334155" font-size="10">복합기 & 프린터</text>
+  <text x="300" y="238" fill="#334155" font-size="10">총무인사팀</text>
+  <rect x="425" y="226" width="50" height="16" rx="4" fill="#dcfce7"/>
+  <text x="450" y="238" fill="#15803d" font-size="9" text-anchor="middle">정상사용</text>
+
+  <!-- Row 3 -->
+  <text x="80" y="266" fill="#334155" font-size="10">AST-2026-105</text>
+  <text x="180" y="266" fill="#334155" font-size="10">회의실 빔프로젝터</text>
+  <text x="300" y="266" fill="#334155" font-size="10">대회의실 B</text>
+  <rect x="425" y="254" width="50" height="16" rx="4" fill="#fef9c3"/>
+  <text x="450" y="266" fill="#a16207" font-size="9" text-anchor="middle">정기점검</text>
+
+  <!-- Watermark badge -->
+  <rect x="360" y="318" width="180" height="22" rx="4" fill="#0369a1" opacity="0.9"/>
+  <text x="450" y="333" fill="#ffffff" font-size="11" font-family="sans-serif" text-anchor="middle">권장 파일: project4.png</text>
+</svg>
